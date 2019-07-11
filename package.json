@@ -1,0 +1,35 @@
+{
+  "name": "ideapad",
+  "version": "1.0.0",
+  "description": "An online idea diary for your next projects",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whizkidefos/ideapad.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Bootstrap4",
+    "Fullstack",
+    "Dev"
+  ],
+  "author": "Efosa Igbinehi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whizkidefos/ideapad/issues"
+  },
+  "homepage": "https://github.com/whizkidefos/ideapad#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
